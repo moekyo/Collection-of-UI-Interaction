@@ -1,0 +1,6 @@
+framework module Pods_Collection_of_UI_InteractionTests {
+  umbrella header "Pods-Collection of UI InteractionTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
