@@ -7,11 +7,12 @@
 //
 
 import UIKit
+import SafariServices
 
 class ViewController: UIViewController {
 
     let controllerNames = ["AutoLayoutController", "PopMenuViewController"]
-    let titles = ["自动布局实现界面元素悬停", "长按菜单弹出"]
+    let titles = ["自动布局实现界面元素悬停", "长按弹出菜单"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
