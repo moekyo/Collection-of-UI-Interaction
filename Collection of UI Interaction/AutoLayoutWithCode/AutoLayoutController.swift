@@ -35,7 +35,9 @@ extension AutoLayoutController: UIScrollViewDelegate {
         if (navigationController?.isNavigationBarHidden)! {
             topMargin = 30
         } else {
-            topMargin = 30 + 44
+            //下面在 iPhone X 下会有问题
+//            topMargin = 30 + 44
+            topMargin = 30 + 44 + 20
         }
         
         let topConstraint = toolBar.topAnchor.constraint(equalTo: view.topAnchor, constant: topMargin)

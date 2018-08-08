@@ -10,6 +10,9 @@
 		4AC8F25E958529808712D65C /* Pods_Collection_of_UI_InteractionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB551D3E693555972C404769 /* Pods_Collection_of_UI_InteractionUITests.framework */; };
 		6FCCA1F855D1214A31DABC1E /* Pods_Collection_of_UI_Interaction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306F609A4FAF3EBF4DFFD21E /* Pods_Collection_of_UI_Interaction.framework */; };
 		723381FEAC5BF389BDF7F124 /* Pods_Collection_of_UI_InteractionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547054AE2BAB1E8C027FCE7D /* Pods_Collection_of_UI_InteractionTests.framework */; };
+		E2149F90211AE037006A5830 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2149F8F211AE037006A5830 /* TestViewController.swift */; };
+		E29FDFBD211AC1CB00607F15 /* HoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29FDFBC211AC1CB00607F15 /* HoverTableViewController.swift */; };
+		E29FDFBF211AC1D500607F15 /* HoverTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29FDFBE211AC1D500607F15 /* HoverTableViewController.storyboard */; };
 		E2AAF649211045210086C0E9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AAF648211045210086C0E9 /* Extension.swift */; };
 		E2AAF64C21105BB00086C0E9 /* AutoLayoutController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AAF64B21105BB00086C0E9 /* AutoLayoutController.storyboard */; };
 		E2AAF64E21105C4F0086C0E9 /* AutoLayoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AAF64D21105C4F0086C0E9 /* AutoLayoutController.swift */; };
@@ -52,6 +55,9 @@
 		8F437071CAD14D40C7CEF682 /* Pods-Collection of UI InteractionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Collection of UI InteractionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Collection of UI InteractionTests/Pods-Collection of UI InteractionTests.release.xcconfig"; sourceTree = "<group>"; };
 		AB551D3E693555972C404769 /* Pods_Collection_of_UI_InteractionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Collection_of_UI_InteractionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BC4C90790DE87EDD9AB429 /* Pods-Collection of UI Interaction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Collection of UI Interaction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Collection of UI Interaction/Pods-Collection of UI Interaction.debug.xcconfig"; sourceTree = "<group>"; };
+		E2149F8F211AE037006A5830 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		E29FDFBC211AC1CB00607F15 /* HoverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverTableViewController.swift; sourceTree = "<group>"; };
+		E29FDFBE211AC1D500607F15 /* HoverTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HoverTableViewController.storyboard; sourceTree = "<group>"; };
 		E2AAF648211045210086C0E9 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		E2AAF64B21105BB00086C0E9 /* AutoLayoutController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AutoLayoutController.storyboard; sourceTree = "<group>"; };
 		E2AAF64D21105C4F0086C0E9 /* AutoLayoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutController.swift; sourceTree = "<group>"; };
@@ -101,6 +107,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E29FDFBB211AC14500607F15 /* HoverTableView */ = {
+			isa = PBXGroup;
+			children = (
+				E29FDFBC211AC1CB00607F15 /* HoverTableViewController.swift */,
+				E29FDFBE211AC1D500607F15 /* HoverTableViewController.storyboard */,
+			);
+			path = HoverTableView;
+			sourceTree = "<group>";
+		};
 		E2AAF64A21105B450086C0E9 /* AutoLayoutWithCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,10 +159,12 @@
 		E2EFE25221103E3B009613AC /* Collection of UI Interaction */ = {
 			isa = PBXGroup;
 			children = (
+				E29FDFBB211AC14500607F15 /* HoverTableView */,
 				E2BF0BDF2111B62B0052967D /* PopMenuView */,
 				E2AAF64A21105B450086C0E9 /* AutoLayoutWithCode */,
 				E2EFE25321103E3B009613AC /* AppDelegate.swift */,
 				E2EFE25521103E3B009613AC /* ViewController.swift */,
+				E2149F8F211AE037006A5830 /* TestViewController.swift */,
 				E2EFE281211043D1009613AC /* HomeCell.swift */,
 				E2AAF648211045210086C0E9 /* Extension.swift */,
 				E2EFE25721103E3B009613AC /* Main.storyboard */,
@@ -308,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2EFE25E21103E3D009613AC /* LaunchScreen.storyboard in Resources */,
+				E29FDFBF211AC1D500607F15 /* HoverTableViewController.storyboard in Resources */,
 				E2EFE25B21103E3D009613AC /* Assets.xcassets in Resources */,
 				E2AAF64C21105BB00086C0E9 /* AutoLayoutController.storyboard in Resources */,
 				E2BF0BE32111B69B0052967D /* PopMenuViewController.storyboard in Resources */,
@@ -413,6 +431,8 @@
 			files = (
 				E2AAF64E21105C4F0086C0E9 /* AutoLayoutController.swift in Sources */,
 				E2EFE25621103E3B009613AC /* ViewController.swift in Sources */,
+				E2149F90211AE037006A5830 /* TestViewController.swift in Sources */,
+				E29FDFBD211AC1CB00607F15 /* HoverTableViewController.swift in Sources */,
 				E2EFE282211043D1009613AC /* HomeCell.swift in Sources */,
 				E2BF0BE12111B6690052967D /* PopMenuViewController.swift in Sources */,
 				E2EFE25421103E3B009613AC /* AppDelegate.swift in Sources */,
